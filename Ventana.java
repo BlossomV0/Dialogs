@@ -86,7 +86,7 @@ public class Ventana extends JFrame {
         JLabel imageLabel = new JLabel(new ImageIcon(imagen));
         JLabel textLabel = new JLabel(fileName);
         textLabel.setForeground(color);
-        //textLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        textLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
         dialog.add(imageLabel, BorderLayout.CENTER);
         dialog.add(textLabel, BorderLayout.SOUTH);
